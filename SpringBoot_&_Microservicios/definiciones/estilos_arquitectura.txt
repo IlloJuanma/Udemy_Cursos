@@ -1,0 +1,15 @@
+- Diferentes estilos de arquitextura de servicios.
+
+- 1 --> Monolitico : el mas antiguo y el mas usado, todo se desarrolla en un mismo contenedor y luego se empaqueta para lanzarlo a un servidor de aplicaciones
+-       digamos, que es el mas usado por empresas a dia de hoy, pero tiene unas desventajas:
+        * Problemas de escalabilidad
+        * Problemas de mantener la aplicacion
+        * Mas complicado el interactuar para mejorar o cambiar la app
+
+- 2 --> Orientada a servicios : dividimos todas las funcionalidades en servicios pequeños y luego se conectan todos a un boost central
+        * Problemas de costes
+        * Contar con equipos personalizado, mano de obra mas cara
+-
+- 3 --> Microservicios : se quita la centralizacion, se crea pequeñas piezas de manera independiente, y tienen capacidad de evolucionar
+-                        la idea es en el mismo momento se hacen diferentes equipos pequeños con diferentes funcionalidades, procesos básicos
+-                        y luego desplegarlo de manera independiente, mientras se sigue desarrollando y al final se junta todo y acaban comunicandose.

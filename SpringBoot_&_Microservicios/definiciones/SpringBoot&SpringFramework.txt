@@ -1,0 +1,7 @@
+- SpringFramework --> es un marco de trabajo pensado para la rapidez y productividad, ayuda a reducir drásticamente el tiempo de desarrollo, con módulos
+                      que proveen plantillas y funcionalidades para trabajar con tareas tipicas y repetitivas de JDBC, MVCm security, etc.
+                      Requiere config. complejas de XML
+
+- SpringBoot --> Es básicamente una extension del framework orientada a los microservicios, que elimina la complejidad de la configuracion estandar del framework
+                 implementa autoconfiguracion mediante starters (POM preconfigurados, archivos XML) e incluye un servidor web embebido (Tomcat, Hetty or Undertow) para agilizar
+                 aun mas el desarrollo y facilitar el despliegue y la ejecución

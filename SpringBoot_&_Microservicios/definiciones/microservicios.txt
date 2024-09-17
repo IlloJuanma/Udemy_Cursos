@@ -1,0 +1,5 @@
+- Los microservicios son un enfoque moderno del software mediante el cual las aplicaciones se diseñan, construyen y entregan
+-   en piezas pequeñas, manejables e independientes de las otras y deben resolver una tarea concreta del negocio procurando
+-   sobre todo que se adecue al uso real determinado por las necesidades de un contexto particular.
+
+- El tamaño de los microservicios no es una métrica importante, es mejor pensar en terminos de la adecuacion al uso.
